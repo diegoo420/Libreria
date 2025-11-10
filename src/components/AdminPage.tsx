@@ -47,7 +47,7 @@ export function AdminPage({ borrowedBooks, onLogout }: AdminPageProps) {
             <div className="flex items-start justify-between">
               <div>
                 <p className="text-gray-600 mb-2">Total de libros prestados</p>
-                <p className="text-4xl">{totalBorrowed}</p>
+                <p className="text-4xl">{totalBorrowed === 0 ? 'x' : totalBorrowed}</p>
               </div>
               <div className="w-12 h-12 border-2 border-gray-300 rounded-lg flex items-center justify-center">
                 <BookOpen className="w-6 h-6" />
@@ -59,7 +59,7 @@ export function AdminPage({ borrowedBooks, onLogout }: AdminPageProps) {
             <div className="flex items-start justify-between">
               <div>
                 <p className="text-gray-600 mb-2">Usuarios Activos</p>
-                <p className="text-4xl">{uniqueUsers}</p>
+                <p className="text-4xl">{uniqueUsers === 0 ? 'x' : uniqueUsers}</p>
               </div>
               <div className="w-12 h-12 border-2 border-gray-300 rounded-lg flex items-center justify-center">
                 <Users className="w-6 h-6" />
@@ -71,7 +71,7 @@ export function AdminPage({ borrowedBooks, onLogout }: AdminPageProps) {
             <div className="flex items-start justify-between">
               <div>
                 <p className="text-gray-600 mb-2">Esta Semana</p>
-                <p className="text-4xl">{totalBorrowed}</p>
+                <p className="text-4xl">{totalBorrowed === 0 ? 'x' : totalBorrowed}</p>
               </div>
               <div className="w-12 h-12 border-2 border-gray-300 rounded-lg flex items-center justify-center">
                 <TrendingUp className="w-6 h-6" />

@@ -73,7 +73,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="text"
                 value={username}
                 onChange={(e) => setUsername(e.target.value)}
-                placeholder="Ingresa un Usuario"
+                placeholder="xxxxxxx xx xxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -83,7 +83,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="password"
                 value={password}
                 onChange={(e) => setPassword(e.target.value)}
-                placeholder="Ingrese una Contraseña"
+                placeholder="xxxxxxx xxx xxxxxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -99,7 +99,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="text"
                 value={fullName}
                 onChange={(e) => setFullName(e.target.value)}
-                placeholder="Ingresa tu nombre completo"
+                placeholder="xxxxxxx xx xxxxxx xxxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -109,7 +109,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="email"
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
-                placeholder="tucorreo@ejemplo.com"
+                placeholder="xxxxxxxxx@xxxxxxx.xxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -119,7 +119,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="text"
                 value={registerUsername}
                 onChange={(e) => setRegisterUsername(e.target.value)}
-                placeholder="Elige un nombre de usuario"
+                placeholder="xxxxx xx xxxxxx xx xxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -129,7 +129,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="password"
                 value={registerPassword}
                 onChange={(e) => setRegisterPassword(e.target.value)}
-                placeholder="Crea una contraseña"
+                placeholder="xxxx xxx xxxxxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
@@ -139,7 +139,7 @@ export function AuthPage({ onLogin }: AuthPageProps) {
                 type="password"
                 value={confirmPassword}
                 onChange={(e) => setConfirmPassword(e.target.value)}
-                placeholder="Confirma tu contraseña"
+                placeholder="xxxxxxxx xx xxxxxxxxxx"
                 className="border-2 border-gray-300"
               />
             </div>
